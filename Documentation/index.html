@@ -1,0 +1,1120 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>     <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en-US" prefix="og: http://ogp.me/ns#"><![endif]-->
+<!--[if IE 7]>        <html class="no-js lt-ie9 lt-ie8" lang="en-US" prefix="og: http://ogp.me/ns#">       <![endif]-->
+<!--[if IE 8]>        <html class="no-js lt-ie9" lang="en-US" prefix="og: http://ogp.me/ns#">              <![endif]-->
+<!--[if gt IE 8]><!--><html lang="en-US" prefix="og: http://ogp.me/ns#"><!--                               <![endif]-->
+<!--[if !IE]><!--><script>if (/*@cc_on!@*/false) { document.documentElement.className+=' lt-ie10'; }</script><!--<![endif]-->
+<head>
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Lang" content="en">
+    <meta name="author" content="OBest">
+    <meta http-equiv="Reply-to" content="swtheme@gmail.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="description" content="Documentation for Woodmarket - Ultimate Responsive Shopify Theme">
+    <meta name="keywords" content="Responsive,Shopify,Theme,Documentation">
+    <meta name="creation-date" content="09/20/2016">
+
+    <title>Woodmarket Shopify Theme Documentation</title>
+    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+    <link rel='shortcut icon' type='image/x-icon' href='assets/favicon.ico' />
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Lato" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/vendor/jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <script src="assets/vendor/jquery/jquery.min.js" type="text/javascript"></script>
+    <script src="assets/vendor/jquery-ui/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="assets/js/script.js" type="text/javascript"></script>
+</head>
+<body>
+        <div id="header-container">
+            <div class="container">
+                <a href="#" title="Woodmarket - Premium Responsive Shopify Theme" class="logo">
+                    <img src="assets/images/logo1.svg" style="width: 200px; margin-top: 10px;" alt="Woodmarket - Premium Responsive Shopify Theme"/>
+                </a>
+                <button type="button" class="navbar-toggle collapsed pull-right" data-toggle="collapse" data-target="#main-nav-container" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="main-nav-container">
+                    <ul class="main-nav nav">
+                        <li class="has-children"><a href="javascript:void(0)" class="open-child"><i class="fa fa-plus-square-o"></i></a>
+                            <a href="#general" title="General">General<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                            <ul>
+                                <li><a href="#gettingstarted">Getting Started</a></li>
+                                <li class="has-children"><a href="javascript:void(0)" class="open-child"><i class="fa fa-plus-square-o"></i></a>
+                                    <a href="#installationupdate">Installation & Error<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                    <ul>
+                                        <li><a href="#shopifyinstallation">Shopify Installation</a></li>
+                                        <li><a href="#themeinstallation">Theme Installation</a></li>
+                                        <li><a href="#error">Theme Error</a></li>
+                                        <li><a href="#update">Update</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#basicconfiguration">Basic Configuration</a></li>
+                                <li class="has-children"><a href="javascript:void(0)" class="open-child"><i class="fa fa-plus-square-o"></i></a>
+                                    <a href="#homepageconfiguration">Homepage Configuration<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                    <ul>
+                                        <li><a href="#demo1">Demo Default</a></li>
+                                        <li><a href="#demo2">Demo Minimalism</a></li>
+                                        <li><a href="#demo3">Demo Jewellery</a></li>
+                                        <li><a href="#demo4">Demo Fashion</a></li>
+                                        <li><a href="#demo5">Demo Electronics</a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-children"><a href="javascript:void(0)" class="open-child"><i class="fa fa-plus-square-o"></i></a>
+                                    <a href="#themeconfiguration">Theme Configuration<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                    <ul>
+                                        <li><a href="#menuconfiguration">Menu Configuration</a></li>
+                                        <li><a href="#categorypageconfiguration">Category Page Configuration</a></li>
+                                        <li><a href="#productpageconfiguration">Product Page Configuration</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#newsletter">Newsletter</a></li>
+                                <li><a href="#translation">Translation</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-children"><a href="javascript:void(0)" class="open-child"><i class="fa fa-plus-square-o"></i></a>
+                            <a href="#adminoptions" title="Admin Options">Admin Options<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                            <ul>
+                                <li><a href="#general1">General</a></li>
+                                <li><a href="#header">Header</a></li>
+                                <li><a href="#footer1">Footer</a></li>
+                                <li><a href="#color">Color</a></li>
+                                <li><a href="#typography">Typography</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-children"><a href="javascript:void(0)" class="open-child"><i class="fa fa-plus-square-o"></i></a>
+                            <a href="#pages" title="Pages">Pages<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                            <ul>
+                                <li class="has-children"><a href="javascript:void(0)" class="open-child"><i class="fa fa-plus-square-o"></i></a>
+                                    <a href="#blogpage">Blog Page<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                </li>
+                                <li class="has-children"><a href="javascript:void(0)" class="open-child"><i class="fa fa-plus-square-o"></i></a>
+                                    <a href="#contact">Contact Page<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                </li>
+                                <li class="has-children"><a href="javascript:void(0)" class="open-child"><i class="fa fa-plus-square-o"></i></a>
+                                    <a href="#aboutme">About Me Page<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                </li>
+                                <li class="has-children"><a href="javascript:void(0)" class="open-child"><i class="fa fa-plus-square-o"></i></a>
+                                    <a href="#landingpage">Landing Page<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                </li>
+                                <li class="has-children"><a href="javascript:void(0)" class="open-child"><i class="fa fa-plus-square-o"></i></a>
+                                    <a href="#faqspage">FAQs Page<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="has-children"><a href="javascript:void(0)" class="open-child"><i class="fa fa-plus-square-o"></i></a>
+                            <a href="#others" title="Others">Others<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                            <ul>
+                                <li><a href="#faq">Frequently Asked Questions</a></li>
+                                <li><a href="#supportcustomization">Support & Customization</a></li>
+                                <li><a href="#changelog">Change Log</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="https://themeforest.net/item/" title="Purchase Now" target="_blank">Purchase Now</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="main-container">
+            <div class="container">
+                <section id="general">
+                    <div class="main-content">
+                        <div id="gettingstarted">
+                            <h3>Getting Started</h3>
+                            <div class="sub-content">
+                                <h6>Welcome to <code>Woodmarket</code> Shopify Theme!</h6>
+                                <div class="content-body">
+                                    <p>We would like to thank you for purchasing Woodmarket Shopify Theme! We are very pleased you have chosen Woodmarket Shopify Theme(or interested in <i class="fa fa-smile-o emoticon" aria-hidden="true"></i>) for your website, you will be never disappointed! Before you get started, please be sure to always check out this documentation. We outline all kinds of good information, and provide you with all the details you need to use Woodmarket Shopify Theme. Woodmarket will be used with Shopify 2.0 and we assume that you already have Shopify installed and ready to go.</p>
+                                    <p>If you are unable to find your answer here in our documentation, we encourage you to contact us through themeforest  item <a href="https://themeforest.net/item/" target="_blank"><span class="highlight">support page</span></a> with your site and Shopify admin details. We're very happy to help you and you will get reply from us more faster than you expected. Thank you, we hope you to enjoy using Woodmarket Shopify Theme!</p>
+                                </div>
+                                <h6>Compatible with Shopify:</h6>
+                                <div class="content-body">
+                                    <p>Woodmarket Shopify Theme is fully compatible with Shopify <b>2.0</b>.</p>
+                                </div>
+                                <h6>Shopify Information</h6>
+                                <div class="content-body">
+                                    <p>To install this theme you must have a working version of Shopify already installed. If you need help installing Shopify, follow below sites and tutorials from Shopify.com, hope everything that you need are there.</p>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <ul class="li-ct">
+                                                 <li><a href="https://help.shopify.com/manual/intro-to-shopify" target="blank"><span class="highlight">Online Shopify guide</span></a> - Online Shopify documentation that describes about Shopify in detail.</li>
+                                                <li><a href="https://ecommerce.shopify.com/forums" target="blank"><span class="highlight">Shopify Forum</span></a> - Shopify forum site.</li>
+                                                </ul>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p><img src="assets/images/shopify-logo.png"/></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="installationupdate">
+                            <h3>Installation & Error</h3>
+                                <div id="shopifyinstallation">
+                                    <h4>Shopify Installation</h4>
+                                    <div class="sub-sub-content">
+                                        <div class="content-body">
+                                            <p>Shopify is web based ecommerce software. This means there’s no installation required and it works with all operating systems (including Windows and MacOS). You don’t have to worry about installing, upgrading or maintaining any software or web servers.</p>
+                                            <p>Please go to <a href="https://www.shopify.com/" target="_blank">Shopify Site</a> and choose <code>Get Started</code>.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            <div id="themeinstallation">
+                                <h4>Theme Installation</h4>
+                                <br/><div class="alert alert-warning margin-top-bottom-5">
+                                <h4><i class="fa fa-warning"></i> <code>Important!</code></h4>
+                                <p>The package you download from Themeforest, after unzipping, have 3 folders, which includes</p>
+                                    <br/><ul><li><p><b>Documentation file  </b>  </p></li>
+                                <li><p><b>Preset file </b>: Contain the Data files for 5 demos</p></li>
+                                <li><p><b>Theme File</b>: The .zip file which is used to import.</p></li>
+                            </ul>
+                                <p>You can see the list of all demos on the <a href="http://www.obest.org/"> Landing page.</a></p>
+                                </div>
+
+                                        <div class="content-body">
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <ul>
+                                                        <li><p>Make sure you have unzipped your package <strong>.zip</strong> file.</p>
+                                                    </li>
+                                                    <li><p>From your Shopify admin, click <code>Online Store</code>, and then click <code>Themes</code>.</p>
+                                                    </li>
+                                                    <li><p></p>Click <code>Upload a theme</code> in the top right-hand corner:</li>
+                                                    </ul>
+                                                    <br/><div class="alert alert-warning margin-top-bottom-5">
+                                                    <h4><i class="fa fa-warning"></i> Note!</h4>
+                                                    <p>If the message You can't have more than 20 themes on your store appears, you must export or delete one of your installed themes before you can install another one.</p>
+                                                </div>
+                                                    <ul><li>
+                                                        <p>From the Upload A Theme dialog, click Choose File to select <code>Woodmarket-v1.0 > Theme file > Woodmarket Theme.zip</code> file that you want to upload.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Click <code>Upload</code>.</p>
+                                                    </li></ul>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <img class="doc-img" src="assets/images/install1.png" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                            <h4>Choose the Demo</h4>
+                            <ul><li><p>After importing the .zip file, go to <code>Online Stores > Themes > Actions > Edit Code > Config folder > settings_data.json</code>.</p></li>
+                            <li><p>Go to the package folder: <code>Woodmarket-v1.0 > Presets</code>, then <b>open the demo file</b> you want to use and <b>copy the content</b></p></li>
+                            <li><p><b>Replace</b> this content with the content in the file <code>settings_data.json </code></p></li>
+                            <li><p>Choose <code>Save</code> to finish.</p></li></ul>
+                            <h4>Publish Theme</h4>
+                                    <p>Choose <code> Actions > Publish</code> button.</p>
+                                            <p><img class="doc-img" src="assets/images/install3.png"/></p>
+                               <div id="error">
+                                    <h4>Errors in Installation</h4>
+                                    <div class="panel-body">
+                                        <p>
+                                            If you have error as below:
+                                        </p>
+                                        <div class="col-md=12 image-max-100 padding-0">
+                                            <img class="doc-img" src="assets/images/install-error.png" />
+                                        </div>
+                                        <div class="clear"></div>
+                                        <p>This happens when you are trying to upload the incorrect .zip to Shopify. 99% of the time this happens when the folder that was downloaded from Themeforest was <code>NOT unzipped</code> beforehand.
+                                            Remember that The file you have to upload to Shopify is a .zip file in Packages folder (Woodmarket_shopify_package.zip).</p>
+                                        <div class="padding-left-20">
+                                            <button class="mt-sm mb-sm btn btn-success">Congrats! You finished demo installation. Please login to your <span class="text-primary">Themes</span> page, then you can go forward!</button>
+                                        </div>
+                                    </div>
+                                    <div id="update">
+                                        <h4>Update</h4>
+                                        <p>About the update, please download the package from ThemeForest. Please note that:</p>
+                                        <ul><li>When you import the new updated version, the settings on the Customize theme of the old theme can’t be converted.</li>
+                                            <li>If you didn’t done any custom on your theme, please import and config like normal</li>
+                                            <li>If you have done any custom, please:
+                                                <ul><li>Backup all your files you have done custom. </li>
+                                                    <li>After backup file, you can import the updated demo version like normal and replace by the backup files
+                                                    <br/><code>OR</code> See the changelog to know which files were fixed or updated, then, only update those files.</li>
+                                                </ul>
+                                        </ul>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <section id="basicconfiguration">
+                            <div class="main-content">
+                                    <h3>Basic Configuration</h3>
+                               <h4>Enable Customer Registration Form</h4>
+                                <div class="content-body">
+                                    <p>To make the Top LInks on the Header works, you need to enable the customer registration first.</p>
+                                    <ul>
+                                        <li><p>Go to <code>Admin Panel > Settings > Checkout</code></p></li>
+                                        <Li><p>Find the <code>Customer Account</code> section.</p></Li>
+                                        <li><p>Choose <b>Account are optional</b>.</p></li>
+                                    </ul>
+                                    <img class="doc-img" src="assets/images/top-link-active.png">
+                                </div>
+
+                                    <h4>Install Apps</h4>
+                                        <p>To have the Product Reviews works, please install the Shopify app, called <code>Product Reviews</code></p>
+                                     <p><a href="https://apps.shopify.com/60fca9c7f3400ddd43004e94b1355691?utm_content=contextual&utm_medium=shopify&utm_source=admin">View in Shopify App Store</a></p>
+
+                                <h4>Create a new product</h4>
+                                    <div class="content-body">
+                                        <p>Refer the <a href="https://help.shopify.com/manual/products">Shopify guide</a></p>
+                                    </div>
+                                <h4>Add Product Countdown</h4>
+                                        <div class="panel-body">
+                                            <p>This guide will show you how to display the <code>countdown</code> on the product image on the <b>Homepage</b> & <b>Collection page</b> and also, the product deal on the <b>Product page</b>.</p>
+                                            <p><img class="doc-img" src="assets/images/countdown.png"></p>
+                                            <ol>
+                                                <li><p>Go to <code>Product > Products ></code> choose a product.</p></li>
+                                                <li><p>On <b>Product Description</b> box, in the top, insert the line below:</p>
+                                                    <p><code>[countdown]yyyy/mm/dd hh:mm:ss[/countdown]</code></p>
+                                                    <p><i>For example</i> :  [countdown]2017/12/10 10:30:00[/countdown]</p>
+                                                    <p>Here is an example on the Product Configuration : </p>
+                                                <img class="doc-img" src="assets/images/count5.png"></li>
+                                            </ol>
+                                        </div>
+                                        <h4>Import/ Expoxt products</h4>
+                                <div class="content-body">
+                                    <p>Refer the <a href="https://help.shopify.com/manual/products/import-export">Shopify guide</a></p>
+                                </div>
+                                <h4>Create a new collection</h4>
+                                <div class="content-body">
+                                    <p>Refer the <a href="https://help.shopify.com/manual/products/collections">Shopify guide</a></p>
+                                </div>
+                                <h4>Navigation, Menus and links</h4>
+                                <div class="content-body">
+                                    <p>Refer the <a href="https://help.shopify.com/manual/sell-online/online-store/menus-and-links">Shopify guide</a></p>
+                                </div>
+                                <h4>Payment Methods</h4>
+                                <div class="content-body">
+                                    <p>Refer the <a href="https://help.shopify.com/manual/payments">Shopify guide</a></p>
+                                </div>
+                                    </div></div>
+                            </section>
+
+                        <section id="homepageconfiguration">
+                            <div class="main-content">
+                                <div id="drag">
+                                    <h3>Homepage Configuration</h3>
+                                        <h4>Drag & Drop Sections</h4>
+                                        <div class="content-body">
+                                            <img class="doc-img" src="assets/images/drap-drop.png"/>
+                                        </div>
+                                </div>
+                                <div id="addsections">
+                                    <h4>Add Sections</h4>
+                                    <div class="content-body">
+                                        <p>Besides the default section, <b>Woodmarket Shopify theme</b> allows the users to add numberous sections with different types.</p>
+                                        <p>Go to <code>Admin Panel > Online Stores > Themes > Customize theme > Add sections</code></p>
+                                        <br/><img class="doc-img" src="assets/images/section.gif"/>
+                                    </div>
+                                </div>
+
+                                <div id="demo1"></div><h4>Demo Default</h4>
+                                <p>Link to the <code>Wood Demo 1</code> Site : <a href="https://woodmart-default.myshopify.com">  Click Here</a></p>
+
+                                <h6>Menu & Slideshow Configuration</h6>
+                                <img class="doc-img" src="assets/images/default-slide.png">
+                                <p><b>Mobile Menu & Navigation Menu</b></p>
+                                <p>For the detail config, please refer the Menu guide by going to <code>General > Theme Configuration > Menu Configuration</code> by <a href="#menuconfiguration">click here</a>.</p>
+                                <p><b>Top bar</b></p>
+                                <p><i>Newsletter</i> : This item is specially for the Newsletter function. You only have the option to change the item Name.</p>
+                                <p><i>Add Content</i> : It's freely to add as many items as you want. A item configuration has 3 options:</p>
+                                <ul>
+                                    <li><i>Navigation title</i> : Insert the name for the title.</li>
+                                    <li><i>Icon</i> : It supports the fontawesome icon <a href="https://fontawesome.com/icons?d=gallery&s=brands">here</a>.</li>
+                                    <li><i>Navigation link</i> : Choose the navigation link that you created on <code>Online Stores > Navigation</code>.</li>
+                                </ul>
+                                <p><b>Search by Category</b></p>
+                                <p>There are 2 options to choose:</p>
+                                <ul>
+                                    <li><i>Show all collection</i> : The Category list on the search bar will show all the available collections.</li>
+                                    <li><i>Manually select collection</i> : If you choose this option, you will need to <i>Add choice collection</i> to show on the below section.</li>
+                                </ul>
+                                <p><b>Category Menu</b></p>
+                                <ul>
+                                    <li><i>Action Show Sub Menu</i> : You can choose the way to display the sub-menu, by <i>Hover</i> or <i>Click</i>.</li>
+                                    <li><i>Label</i> : You can have 3 kinds of label. To use, please insert the <i>Label name</i> and choose the color.
+                                        <br/>To display the label on the navigation title, insert the <i>Label name</i> on the option <b><i>Navigation Label</i></b></li>
+                                    <li><i>Navigation Content</i> :
+                                        <br/><br/><img class="doc-img" src="assets/images/browser-categories.png"></li>
+                                </ul>
+
+                                <div id="demo2"></div>
+                                <h4>Demo Minimalism</h4>
+                                <br/><img class="doc-img" src="assets/images/minimalism.png">
+                                <p><b>Slideshow</b></p>
+                                <p>For the detail config, please refer the Menu guide by going to <code>General > Homepage Section Configuration > General Section</code> by <a href="#homepageconfiguration">click here</a>.</p>
+                                <p><b>Footer Subscribe & Social</b></p>
+                            <div class="panel-body"> 
+                                <img class="col-md-3 left padding-0 margin-right-10 grey-border-1" style="margin-right: 20px" src="assets/images/mini-footer.png"/> 
+                                <ul><li><b>Layout</b> : There are 4 options to choose: <i>Default, Fullwidth row, Fullwidth row and content, Fullwidth row and content (no padding)</i>.</li> 
+                                    <li><b>Section Margin Top</b> : Insert the number to adjust the margin top of the whole footer section. For example: 40px </li> 
+                                    <li><b>Section Margin Bottom</b> : Insert the number to adjust the margin bottom of the whole footer section. For example: 40px</li> 
+                                    <li><b>Section Padding</b>: The padding for the content on the Footer section. The number must be inserted follow the order: Top Right Bottom Left.
+                                        <br/>For example: 35px 15px 20px 40px </li> 
+                            </div>
+                                <div id="demo3"></div>
+                                <h4>Demo Jewellery</h4>
+                                <br/><img class="doc-img" src="assets/images/jewellery.png">
+                                <div class="panel-body"> 
+                                    <h6>Footer Layout</h6>
+                                    <img class="doc-img" src="assets/images/footer-layout.png"/>
+                                    <p><b>About us content</b></p>
+                                    <pre>
+&lt;p>Condimentum adipiscing vel neque dis nam parturient orci at scelerisque neque dis nam parturient.&lt;/p>&lt;div style="line-height: 2;">
+&lt;i class="fa fa-location-arrow" style="width: 15px; text-align: center; margin-right: 4px; color: #676767;">&lt;/i> 451 Wall Street, UK, London&lt;br>&lt;i class="fa fa-mobile" style="width: 15px; text-align: center; margin-right: 4px; color: #676767;">&lt;/i> Phone: (064) 332-1233&lt;br>&lt;i class="fa fa-envelope-o" style="width: 15px; text-align: center; margin-right: 4px; color: #676767;">&lt;/i> Fax: (099) 453-1357&lt;/div>
+                                    </pre>
+                                    <p>Item Width : <b>3/12</b></p>
+                                    <br/><p><b>Recent Posts</b></p>
+                                    <img src="assets/images/recent-post.png"/>
+                                    <p>Item Width : <b>3/12</b></p>
+                                    <br/><p><b>Our Stories, Useful Links, Footer Menu</b></p>
+                                    <p>Choose the Navigation menu to display on each section.</p>
+                                    <p>Item Width : <b>2/12</b></p>
+                                    <img src="assets/images/our-stories.png"/>
+                                </div>
+                                <div id="demo4"></div>
+                                <h4>Demo Fashion</h4>
+                                <br/><img class="doc-img" src="assets/images/fashion.png">
+                                <div class="panel-body"> 
+                                    <p><b>Footer Product List</b></p>
+                                    <img class="doc-img" src="assets/images/fashion-footer-list.png">
+                                    <br/><p><b>Featured Products | New Products</b></p>
+                                    <p>Choose the <i>Collection products</i> to display on each section.</p>
+                                    <p>Item Width : <b>3/12</b></p>
+                                    <img src="assets/images/footer-products.png"/>
+                                    <br/><p><b>REGISTER FOR OUR NEWSLETTER</b></p>
+                                    <p>Heading</p>
+                                    <pre>&lt;strong>TO WOODMART&lt;/strong></pre>
+                                    <p>Newsletter Content</p>
+                                    <pre>
+&lt;div class="liner-continer"> &lt;span class="left-line">&lt;/span>&lt;h4 class="woodmart-title-container title">REGISTER FOR OUR NEWSLETTER&lt;span class="title-separator">&lt;span>&lt;/span>&lt;/span>
+&lt;/h4> &lt;span class="right-line">&lt;/span>
+&lt;/div>&lt;div class="title-after_title">Sign up for all the news about our last arrivals and get an exclusive early access shopping.&lt;/div>
+                                    </pre>
+                                    <p>Social Content</p>
+                                    <pre>
+&lt;div class="woodmart-social-icon social-facebook">
+&lt;a href="https://www.facebook.com/sharer/sharer.php?u=https://woodmart-default.myshopify.com/" target="_blank" class="">
+&lt;i class="fa fa-facebook">&lt;/i>Facebook&lt;/a>&lt;/div>
+&lt;div class="woodmart-social-icon social-twitter">
+&lt;a href="http://twitter.com/share?url=https://woodmart-default.myshopify.com/" target="_blank" class="">
+&lt;i class="fa fa-twitter">&lt;/i>Twitter&lt;/a>&lt;/div>
+&lt;div class="woodmart-social-icon social-google">
+&lt;a href="http://plus.google.com/share?url=https://woodmart-default.myshopify.com/" target="_blank" class="">
+&lt;i class="fa fa-google-plus">&lt;/i>Google&lt;/a>&lt;/div>
+&lt;div class="woodmart-social-icon social-email">
+&lt;a href="mailto:?subject=Check%20this%20https://woodmart-default.myshopify.com/" target="_blank" class="">
+&lt;i class="fa fa-envelope">&lt;/i>Email&lt;/a>&lt;/div>&lt;div class="woodmart-social-icon social-pinterest">
+&lt;a href="http://pinterest.com/pin/create/button/?url=https://woodmart-default.myshopify.com/" target="_blank" class="">
+&lt;i class="fa fa-pinterest">&lt;/i>Pinterest&lt;/a>&lt;/div>
+                                    </pre>
+                                    <p>Item Width : <b>6/12</b></p>
+                                </div>
+
+                                <div id="demo5"></div>
+                                <h4>Demo Electronics</h4>
+                                <br/><img class="doc-img" src="assets/images/electronic.png">
+
+                                <br/><br/><section id="themeconfiguration">
+                                <h2>Theme Configuration</h2>
+                                    <div id="menuconfiguration">
+                                    <h3>Menu Configuration</h3>
+                                    <div class="sub-sub-content">
+                                        <h4>General Information</h4>
+                                        <div class="content-body">
+                                            <p>Woodmart eCommerce provides powerful and most advanced menu, we're going to describe detailed instructions how to use this powerful menu features as our demo site.</p>
+                                        </div>
+                                        <h4>Necessary Menu Settings</h4>
+                                        <div class="content-body">
+                                            <p>TO create the Menu for any Shopify theme, there are some necessary menu settings that you need to know.
+                                                <br/>Please refer the Shopify guide <a href="https://help.shopify.com/manual/sell-online/online-store/menus-and-links">here</a>.</p>
+                                        </div>
+                                        <h4>Main Navigation (Desktop Menu)</h4>
+                                        <p>Going to <code>Customize theme > Sections > Main Navigation</code></p>
+                                        <img src="assets/images/main-navigation.png"/>
+                                        <br/><p><b>Action Show Sub Menu</b> : You can choose the way to display the sub-menu, by <i>Hover</i> or <i>Click</i>.</p>
+                                        <p><b>Label</b> : You can have 3 kinds of label. To use, please insert the <i>Label name</i> and choose the color.
+                                            <br/>To display the label on the navigation title, insert the <i>Label name</i> on the option <b><i>Navigation Label</i></b></p>
+                                        <p><b>Navigation Content</b> : </p>
+                                        <div class="row"><div class="col-md-10">
+                                            <div class="col-md-5 margin-top-10">
+                                                <img class="doc-img col-md-12 padding-0 margin-top-bottom-5" src="assets/images/menudrop.png">
+                                                <p class="a-center">Mega Dropdown</p>
+                                            </div>
+                                            <div class="col-md-5 margin-top-10">
+                                                <img class="doc-img col-md-12 padding-0 margin-top-bottom-5" src="assets/images/menublog.png">
+                                                <p class="a-center">Mega Dropdown Blog</p>
+                                            </div>
+                                            <div class="col-md-2 margin-top-10">
+                                                <img class="doc-img col-md-12 padding-0 margin-top-bottom-5" src="assets/images/menudclassic.png">
+                                                <p class="a-center">Classic Dropdown</p>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div></div>
+                                        <h4>Mobile Menu </h4>
+                                        <p>Woodmart Shopify theme supports the customer to create the Advanced Mobile Menu with 2 tabs: <b>Menu</b> and <b>Categories</b></p>
+                                        <ul>
+                                            <li><b>Menu tab</b> : Set up by choosing the Navigation link list on <code>Select Menu</code> option.</li>
+                                            <li><b>Categories tab</b> : Set up directly by adding the content on <code>Mobile Menu</code> Configuration.</li>
+                                        </ul>
+                                        <br/><img src="assets/images/mobile-menu.png"/>
+                                        <br/><img src="assets/images/mobile-menu1.png"/>
+                                        <br/><br/><h6>Labels</h6>
+                                        <div class="panel-body">
+                                        <p>The Icon image will be displayed on the top - right of the top-level category. Woodmart theme supports the customer to have 6 types of labels</p>
+                                        <img src="assets/images/label.png"/>
+                                            <br/><br/><img class="doc-img" src="assets/images/menu-label.png" />
+                                            </div>
+                                    </div>
+                                </div>
+                                <div id="categorypageconfiguration">
+                                    <h3>Collection Page Configuration</h3>
+                                    <div class="sub-sub-content">
+                                        <h4>Basic Settings</h4>
+                                        <div class="content-body">
+                                            <p>This theme comes with a new collection page, which is more customizable & mobile-friendly. There are some areas you need to check:</p>
+                                            <ol>
+                                                <li><p>Edit and Manage Collection in <code>Products > Collections</code></p></li>
+                                                <li><p>Add and assign products to each collection, go to <code>Products > Products</code></p></li>
+                                                <li><p>Go to: <code>Customize theme > Collection Page</code> to config filtering & set the column number in collection page.</p></li>
+                                                <li><p>Configure to show filter by attributes (color, size or manuafacture): <code>Customize Theme > Collection Filtering</code>.</p></li>
+                                                <li><p>Configure to show collection side-bar in collection page: <code>Customize Theme > Collection Sidebar</code>.</p></li>
+                                                <li><p>Configure to show collection side-bar collection in collection page: <code>Customize Theme > Sidebar Bestseller Collection</code>.</p></li>
+                                            </ol>
+                                            <h4>Categories Link</h4>
+                                            <img class="doc-img" src="assets/images/cate-links.png"/>
+                                            <p><b>Categories Link Use?</b> : Mark the checkbox if you want to display the <i>Categories Link</i>.</p>
+                                            <p><b>Show products count?</b> : Mark the checkbox to show the Product Count below the Categories Name.<br/>For example: showing <i>23 products</i> below the <i>Clocks</i> Category.</p>
+                                            <p><b>Category Settings</b> :</p>
+                                            <div class="panel-body">
+                                                <img class="col-md-3 left padding-0 margin-right-10 grey-border-1" src="assets/images/collec-page.png"/>
+                                                <p>You have add <b>MAX 6</b> categories.</p>
+                                                <p>There are <b>3</b> ways to upload the Category Icon</p>
+                                                <ul><li><p><b>Icon Image</b>: Choose Yes if you want to change the produce images when hovering.</p>
+                                                    <li><p><b>SVG Icon</b>: If set to Yes, shows product image with uploaded image's size ratio.</li>
+                                                    <li><p><b>Awesome Icon</b>: </p></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <h4>Collection Page</h4>
+                                        <div class="content-body">
+                                            <p>Go to <code>Online Stores > Themes > Customize theme > General Settings > Collection Page</code>
+                                            <br/><h6>Page Heading Background</h6>
+                                            <div class="panel-body">
+                                                <img class="col-md-3 left padding-0 margin-right-10 grey-border-1" style="margin-right: 20px;" src="assets/images/page-heading.png"/>
+                                                <p><b>Collection page heading use?</b> : Check if you want to show the Collection page heading.</p>
+                                                <p>There are <b>3</b> options to choose the page heading background.</p>
+                                                <ul><li><p>Background Color</p></li>
+                                                    <li><p>Background Image</p></li>
+                                                    <li><p>Use the Collection image (which was upload on Collection page configuration) by mark the checkbox <b>Specify other image for particular page</b></li></ul>
+                                            </div>
+                                            <img class="doc-img" src="assets/images/cate-links1.png"/>
+                                            <br/><h6>Collection List Design</h6>
+                                            <p>This option is used specifically for the <code>All Colection page</code>.</p>
+                                            <img src="assets/images/collection-list.png"/>
+                                            <p><b>Alternative</b></p>
+                                            <img class="doc-img" src="assets/images/alternative.png"/>
+                                            <p><b>Center Title</b></p>
+                                            <img class="doc-img" src="assets/images/center-title.png"/>
+                                            <br/><h6>Collection Sidebar </h6>
+                                            <img class="doc-img" src="assets/images/collection-sidebar.png"/>
+                                            </div>
+                                        <h4>Collection Filtering</h4>
+                                        <p>This theme includes a new advanced filter called Collection Filtering.</p>
+                                        <p><p>Go to: <code>Customize theme > Collection Page > Filtering</code> then select <strong>Filter By Groups</strong></p></p>
+                                        <br/>
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <p><b>Set up Collection Filtering</b></p>
+                                                <p>Understanding the structure of the filter:</p>
+                                                <p>There are many filter items (from now we called a filter item "filter" as abbreviation)</p>
+                                                <ul><li><p>To the image above, you can see there are 4 filters (Color, Size, Price, Brand)</p></li>
+                                                <li><p>To each filter, there are many values. For instance, Color has its value: beige, black, blue, gray, green, pink, red, silver and yellow.</p></li>
+                                                <li><p>When a value is selected, for instance "green", all products (in the collection) having "green" tag will be displayed.</p></li>
+                                                <li><p>The filter Color is displayed in swatches by default.</p></li>
+                                                <li><p>To each brand, there are many values. If i want to filter by brand "Adidas", all products (in the collection) having "Adidas" tag will be display.</p></li>
+                                                </ul></div>
+                                            <div class="col-sm-6">
+                                                <img class="doc-img" src="assets/images/filtering1.png" />
+                                            </div>
+                                        </div>
+                                        <div class="panel-body">
+                                            <img class="col-md-3 left padding-0 margin-right-10 grey-border-1" style="margin-right: 20px;" src="assets/images/advanced-filter.png"/>
+                                            <p><b>Go to</b> <code>Customize theme > Collection Filtering</code></p>
+                                            <ul><li><p><b>Used</b>: Choose if you want to show the filter.</p></li>
+                                            <li><p><b>Heading</b>: Add the title of the filter.</p></li>
+                                            <li><p><b>Filters</b>: Add the Filter Variants.</p></li></ul>
+                                            <p><b>Go to</b> <code>Products > Products</code>, choose a product and go to <b>Tags Area</b></p>
+                                            <img class="grey-border-1 margin-top-bottom-5" src="assets/images/advanced-filter1.png">
+                                            <div class="alert alert-warning margin-top-bottom-5">
+                                            <h4><i class="fa fa-warning"></i> Note!</h4>
+                                            <p>In Filters box, you MUST separate the variants by the comma ( , ) with NO SPACE.</p>
+                                            The Tags must like EXACTLY the variant which you insert in <span class="text-primary"> Collection Filtering</span>.
+                                        </div>
+                                </div>
+                                    <div id="productpageconfiguration"></div>
+                                    <h3>Product Page</h3>
+                                    <div class="sub-sub-content">
+                                        <div class="content-body">
+                                            <h4>Product Page Sections Configuration</h4>
+                                            <p><b>Go to</b> <code>Online Stores > Themes > Customize theme > Sections > Product 360 View Gallery </code>and <code>Product page Tab</code>.</p>
+                                            <div class="content-body">
+                                                <h6>Product 360 View Gallery</h6>
+                                                <p><img class="doc-img" src="assets/images/product-page.gif"/></p>
+                                                <br/><ol>
+                                                <li>To add the <b>360 View</b> funtion to the product, choose <code>Add Images to gallery</code>
+                                                <br/><img src="assets/images/product-page-add.png"/></li>
+                                                <li>Insert the <b>Product Title</b> and <b>Chooset the product uses the funtion</b>.
+                                                <br/><p>For example, the product <b><i>Eames Plastic Side Chair</i></b></p>
+                                                    <img src="assets/images/product-page-add1.png"/></li>
+                                                <li>Add the images. There are 25 images in total.
+                                                <br>For example, the product <b><i>Eames Plastic Side Chair</i></b>
+                                                    <br/><img src="assets/images/product-page-add2.png"/></li>
+                                            </ol>
+                                            <br/><h6>Product page Tab</h6>
+                                                <p>You can only add <code>1</code> Description tab, <code>1</code> Review tab, <code>1</code> Additional Tab and <code>many</code> Custom HTML tab</p>
+                                                <img src="assets/images/product-tab.png"/>
+                                                <p>The Description tab content and Additional tab content are inserted on the <b>Product description configuration</b>.</p>
+                                                <p> The Additional tab content uses the <code>[additional]...[/additional]</code> to add.</p>
+                                                <img class="doc-img" src="assets/images/product-tab-content.png"/>
+                                                <br/><h6>Theme Settings > Product page</h6>
+                                                <br/><img src="assets/images/product-page1.png"/>
+                                                <p>In this section, there are numberous options to config the Product Gage about <b>Sidebar, Product Layout, Product Tab Layout, Size Chart, Product Swatches </b> and <b>Related Products.</b></p>
+                                                </div>
+                                            <h6 class="text-primary">Color Swatches</h6>
+                                            <div class="content-body">
+                                                <p> Swatches is a feature for products presenting how a product looks like in different colors & size. This also shows the relationship between your product size and stock..</p>
+                                                <p><img class="doc-img grey-border-1 margin-top-bottom-5" src="assets/images/color-sw1.png"/></p>
+                                                <p><b>Enable Color Swatches</b></p>
+                                                <p>Go to <code>Customize Theme > Theme Settings tab > Product Page > Color Swatches</code></p>
+                                                <p><b>Settings</b></p>
+                                                <div class="row">
+                                                    <div class="col-sm-6">
+                                                        <ol><li><p>In the Admin Panel, go to <code>Products > Products > Add a product</code> or edit an existing</p> <p>product.</p></li>
+                                                            <li><p>Add product details.</p>
+                                                                <p>Create different color, size or style variants (swatches) for product by clicking <span class="text-primary">Add Variants</span></p>
+                                                            </li>
+                                                            <li><p>
+                                                                Add Images to Swatches: Upload the image to: <code>Online Stores > Themes > ... ></code></p>
+                                                                <p><code>Edit HTML/CSS > Assets > Add New Asset > Upload a file</code></p>
+                                                        <br/><div class="alert alert-warning margin-top-bottom-5">
+                                                                <h4><i class="fa fa-warning"></i> Reminder!</h4>
+                                                            There's an important naming convention to respect here! The image must be named after the color option, be all lowercase, seperated by " - ", and have a .png extension.
+                                                        </div></li>
+                                                            </ol>
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <img class="doc-img" src="assets/images/color-attribute1.png" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div></div></div>
+                                        </section>
+                                <div id="newsletter">
+                                    <h3>Newsletter</h3>
+                                    <p>Go to: <code>Online Stores > Themes > Customize Theme > General Settings > Newsletter</code>:</p>
+
+                                        <h4>Newsletter Popup</h4>
+                                        <img class="doc-img" src="assets/images/news-popup.png">
+                                                <div class="panel-body">
+                                                    <img class="col-md-3 left padding-0 margin-right-10 grey-border-1" style="margin-right: 20px" src="assets/images/news-popup1.png"/>
+                                                    <p><b>Mainchimp Form Action URL</b> : All the Newsletter sections on the theme will use this Mailchimp address.</p>
+                                                    <p><b>Show popup on?</b> : You can choose the show the Newsletter popup on only Homepage, on all the pages OR desable.</p>
+                                                </div>
+                                </div>
+                                        <div id="translation"></div>
+                                    <h3>Translation</h3>
+                                    <div class="sub-sub-content">
+                                        <h4>Edit Language</h4>
+                                            <p>Here's a quick way to change some of the more commonly text</p>
+                                            <ul>
+                                            <li><p>Go to: <code>Themes > ... >  Edit language</code>:</p>
+
+                                            <br/><img class="doc-img" src="assets/images/translate11.png"/>
+
+                                            <br/><img class="doc-img" src="assets/images/translate21.png"/></li></ul>
+                                        </div>
+
+                                    <h4>Second Language</h4>
+                                    <p><b>Enable Multi Language</b></p>
+                                    <p>Go to <code>Online Stores > Themes > Customize theme > General Settings > General > Multi Language</code></p>
+                                    <div class="panel-body">
+                                        <img class="col-md-3 left padding-0 margin-right-10 grey-border-1" src="assets/images/multi.png"/>
+                                        <ul><li><p>Choose <b>Multi language enable?</b></p></li>
+                                        <li><p>Choose <b>Icon?</b> if you want to display the <i><b>Language Flat</b></i>.</p></li>
+                                        <li><p>Add the Language Name and upload the Language Flat</p></li></ul>
+                                        <br/><p><b><i>Language Flag</i></b></p>
+                                        <div class="content-body">
+                                            <p>If you have more than one store view in your store, the store view selector will be displayed at the top of the page as a selectbox. You can enable different language for each store view.</p>
+                                            <p>For each available lanugage a flat is displayed in the store view switcher. <i>Flag images form</i> : PNG, 16*12 pixels .</p>
+                                        </div>
+                                    </div>
+                                    <p><b>Second Language</b></p>
+                                    <ol>
+                                        <li><p>Go to <code>Online Stores > Navigation</code>, click Edit link list, then change the link name follow the structure:  <b>Lang 1 | Lang 2</b></p>
+                                        <p>For example :  <b>Home | Domicile</b></p></li>
+                                       <Li><p>Go to <code>Product > Product list</code>, then choose product: </p>
+                                        <p>-  Changing the product title follow the structure:  <code>Lang 1 | Lang 2</code></p>
+                                        <p>-  Changing the product content follow the structure: <code>Page content Lang 1 [lang2] Page content Lang 2</code></p></li>
+                                        <Li><p>Go to <code>Online Stores > Theme > ... > Edit HTML/CSS</code></p>
+                                        <p>-  In folder Locales, create new locales, for example: name folder for French: <b> fre.json</b></p>
+                                        <p>-  Copy the content of  <b>en.default.json</b> to <b>fre.json </b></p>
+                                        <p>-  In fre.json, please replace the text behind the : and  inside " " to French.</p>
+                                        <p><i>For example</i>  :  "home": "Home", </p>
+                                            <p>"home_link_title": "Back to the frontpage" </p>
+                                            <p> <b>=>></b> "home": "Domicile",</p>
+                                            <p>"home_link_title": "Retour a Domicile"</p>
+                                            <p>- After finishing, pls copy the content of fre.json and replace with the content in file <b>lang2.js</b> in folder <b><i>Assets</i></b>. </p></li>
+                                    </ol>
+                                    <br/>
+                                        </div>
+
+                </section>
+                <section id="adminoptions">
+                    <h2>Admin Options</h2>
+                    <div class="main-content">
+                        <div id="general1">
+                            <h3>General</h3>
+                                    <div class="panel-body">
+                                        <p>Go to: <code> Online Store > Themes > Customize theme > General Settings > General</code></p>
+                                        <h4>Settings</h4>
+                                        <div class="panel-body">
+                                            <img class="col-md-3 left padding-0 margin-right-10 grey-border-1" style="margin-right:20px" src="assets/images/general.png"/>
+                                            <ul>
+                                                <li><p><b>Button Style</b>:</p>
+                                                    <img src="assets/images/button.png"/>
+                                                    <img src="assets/images/button1.png"/></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <h4>Currencies</h4>
+                                    <p>Go to: <code> Online Store > Themes > Customize theme > General Settings > General > Currencies</code></p>
+                                    <img class="doc-img" src="assets/images/currencies.png"/>
+                                    <div class="panel-body">
+                                        <img class="col-md-3 left padding-0 margin-right-10 grey-border-1" style="margin-right: 20px" src="assets/images/currencies1.png"/>
+                                        <ul><li><p><b>Show</b>:</p><p> Choose to display the currencies or not.</p></li>
+                                        <li><p><b>Money Format</b>:</p><p> There are 2 options: <i><b>Without Currency, Ex: $10</b></i> and <b><i>With Currency, $10 CAD</i></b></p></li>
+                                        <li><p><b>Currencies you wish to support</b>: </p><p>Add the currencies, seperated by the space. </p>
+                                        <p>For example: EUR USD GBP</p></li>
+                                        <li><p><b>Default currency</b>: </p><p>Insert the currency you want to set the default.</p></li></ul>
+                                    </div>
+                                    <h4>Favicon</h4>
+                                    <p>This guide will show you how to change your theme's favicon.</p>
+                                    <img class="doc-img" src="assets/images/favicon.png"/>
+                            <ol>
+                            <li><p>Go to: <code> Online Store > Themes > ... > Edit Code > Assets</code> folder.</p></li>
+                                <li><p>Upload your new icon, name: <code>favicon.ico</code> and <b>replace</b> the old file.</p></li>
+                            </ol>
+                            <div id="header">
+                                        <h3>Header</h3>
+                                        <p>Go to: <code> Online Store > Themes > Customize theme > Sections > Header</code></p>
+                                        <div class="content-body">
+                                            <h4>Topbar</h4>
+                                            <p><img class="doc-img" src="assets/images/topbar.png"></p>
+                                            <div class="panel-body">
+                                                <img class="col-md-3 left padding-0 margin-right-10 grey-border-1" style="margin-right: 20px" src="assets/images/topbar-config.png"/>
+                                                <ul><li><p><b>Header Topbar Disable?</b>: Choose if you don't want to show the Topbar.</p></li>
+                                                    <li><p><b>TopBar Text Color</b>: There are 2 options: Light as white text, Dark as black text.</p></li>
+                                                    <li><p><b>TopBar background</b>: There are 2 options: choose the background color OR upload the background image. </p>
+                                                    <p>Below are the 4 options that helps on configuring the Topbar background Image.</p>
+                                                    <p><img src="assets/images/topbar-config-1.png"</p></li></ul>
+                                            </div>
+                                            <p><b>Topbar Text</b>: <pre>&lt;strong><strong>FREE SHIPPING FOR ALL ORDERS OF $150</strong>&lt;/strong></pre></p>
+                                            <p><b>Topbar Soical HTML</b>:</p>
+                                            <pre>
+&lt;div class="woodmart-social-icon social-facebook">
+&lt;a href="#" target="_blank" class="">
+&lt;i class="fa fa-facebook">&lt;/i>Facebook&lt;/a>&lt;/div>
+&lt;div class="woodmart-social-icon social-twitter">
+&lt;a href="#" target="_blank" class="">
+&lt;i class="fa fa-twitter">&lt;/i>Twitter&lt;/a>&lt;/div>
+&lt;div class="woodmart-social-icon social-google">
+&lt;a href="#" target="_blank" class="">
+&lt;i class="fa fa-google-plus">
+<&lt;i>Google&lt;/a>&lt;/div>
+&lt;div class="woodmart-social-icon social-email">&lt;a href="mailto:?subject=Check%20this%20https://woodmart.xtemos.com/" target="_blank" class="">
+&lt;i class="fa fa-envelope">
+&lt;/i>Email&lt;/a>&lt;/div>
+&lt;div class="woodmart-social-icon social-instagram">&lt;a href="#" target="_blank" class="">
+&lt;i class="fa fa-instagram">
+&lt;/i>Instagram&lt;&lt;/a>&lt;/div>
+&lt;div class="woodmart-social-icon social-youtube">
+&lt;a href="#" target="_blank" class="">
+&lt;i class="fa fa-youtube">&lt;/i>YouTube&;t'/a>&lt;/div>
+&lt;div class="woodmart-social-icon social-pinterest">
+&lt;a href="#" target="_blank" class="">&ly.i class="fa fa-pinterest"><&lt;i>Pinterest<&lt;/a>&lt;/div></pre>
+</div></div>
+                                      <h4>Logo</h4>
+                                            <p>You can choose to upload the <code>PNG</code> logo image OR <code>SVG</code> logo image. We recommended you to use the SVG file to get the best logo quality.</p>
+                            <div class="panel-body">
+                                <img class="col-md-3 left padding-0 margin-right-10 grey-border-1" style="margin-right: 20px" src="assets/images/topbar-logo.png"/>
+                                <ul><li><p><b>SVG Logo</b>: Since Shopify does not support to upload SVG file on the configuratio. Please follow the steps</p>
+                                <ol>
+                                    <li>Go to <code>Online Stores > Themes > Actions > Edit code > Assets folder > </code> upload the SVG file.</li>
+                                    <li>Go to <code>Customize theme > Header > Logo > Logo SVG ></code> insert the SVG file name that recently was uploaded.</li><br/>
+                                </ol></li>
+                                    <li><p><b>PNG Logo</b>: Upload directly on the option <code>Logo Image</code>.</p></li>
+                                    <li><p><b>Logo Max Width</b>: Insert the number to modify the logo width. </p>
+                                    <p><i>Note:</i> Insert the number without px.</p></li></ul>
+                            </div>
+                            <h4>Shopping cart</h4>
+                            <p>In this section, you can choose 1 of 2 ways to display the cart popup, in <code>Shopping cart Widget</code> option, choose <b>Dropdown from Header</b> or <b>Hidden in Sidebar</b>.</p>
+                                    <div class="row"><div class="col-md-10">
+                                        <div class="col-md-6 margin-top-10">
+                                            <img class="doc-img col-md-12 padding-0 margin-top-bottom-5" src="assets/images/cart-drop.png">
+                                            <p class="a-center">Dropdown from Header</p>
+                                        </div>
+                                        <div class="col-md-6 margin-top-10">
+                                            <img class="doc-img col-md-12 padding-0 margin-top-bottom-5" src="assets/images/cart-hidden.png">
+                                            <p class="a-center">Hidden in Sidebar</p>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div></div>
+                                    <p><b>Icon shopping cart alt use?</b>: Mark the checkbox if you want to use the <i>Shopping Cart icon</i>, unmark to use the <i>Shopping Bag icon</i>.</p>
+                                    <img src="assets/images/cart-icon.png">
+                                    <img src="assets/images/bag-icon.png">
+                                <h4>Customization Settings </h4>
+                                <br/><div class="alert alert-warning margin-top-bottom-5">
+                                    <h4><i class="fa fa-warning"></i> Important !</h4>
+                                <p>If you want to do the customization on the theme style, please go to <code>Online Stores > Themes > Customize theme > Customization Settings</code> and insert the code on the <b>Custom Style</b> box.</p>
+                            </div><br/>
+                                        </div>
+                                    <div id="footer1"></div>
+                                    <h3>Footer</h3>
+                                    <div class="row">
+                                        <h4>Footer Layout</h4>
+                                            <p><b>Footer Design</b> : Woodmarket supports 3 designs for the footer.<br/> For example: </p>
+                                            <p><img src="assets/images/footer-design.png"/></p>
+                                            <p><img class="doc-img" src="assets/images/footer-brand.png"/></p>
+                                            <p><b>Footer Text Color</b> : Choose <code>Dark</code> to have the black text OR choose <code>Light</code> to have the White text.
+                                            <br/><img src="assets/images/footer-text.png"/></p>
+                                    </div>
+                                    <h4>Footer Background</h4>
+                                    <p>You can choose to use the <b>Background Color</b> or <b>Background image</b> for the Footer </p>
+                                        <img src="assets/images/footer-color.png">
+                                        <img src="assets/images/footer-color2.png">
+                                        <div class="clear"></div>
+                                    <h4>Footer Copyright</h4>
+                                    <div class="panel-body">
+                                        <p><b>Footer Copyright Text</b></p>
+                                        <img class="doc-img" src="assets/images/footer-copy.png"/>
+                                        <pre>&lt;small>&lt;a href="<b>https://woodmart.xtemos.com/</b>">&lt;strong><b>WOODMART</b>&lt;/strong>&lt;/a> &lt;i class="fa fa-copyright">&lt;/i>  <b>2017 CREATED BY</b> &lt;a href="<b>http://xtemos.com</b>">&lt;strong>&lt;span style="color: red; font-size: 12px;">X&lt;/span><b>-TEMOS STUDIO</b>&lt;/strong>&lt;/a><b>. PREMIUM E-COMMERCE SOLUTIONS.</b>&lt;/small></pre>
+                                    </div>
+                                    <div id="color">
+                                        <h3>Color</h3>
+                                    <div class="panel-body">
+                                        <p>Go to <code> Online Store > Themes > Customize theme > General Settings > Color</code>.</p>
+                                        <h6>General</h6>
+                                        <div class="panel-body">
+                                            <img class="col-md-3 left padding-0 margin-right-10 grey-border-1" style="margin-right: 20px" src="assets/images/color.png"/>
+                                            <p>Choose the <b>Theme color</b>.</p>
+                                            <p>There are 2 options for the <b>Background Color</b>:</p>
+                                            <ul><li><p><i>Light (default)</i></p></li> <li><p><i>Dark</i></p></li></ul>
+                                        </div>
+                                        <h6>Other Color Settings</h6>
+                                        On the other sections, you will have lots of options to config the Color of whole theme, Header, Footer, Page, Main Container.
+                                        <div class="panel-body">
+                                            <img class="col-md-3 left padding-0 margin-right-10 grey-border-1" src="assets/images/color0.png"/>
+                                            <img class="col-md-3 left padding-0 margin-right-10 grey-border-1" src="assets/images/color1.png"/>
+                                            <img class="col-md-3 left padding-0 margin-right-10 grey-border-1" src="assets/images/color2.png"/>
+                                        </div>
+                                    </div>
+                                        </div>
+                                    <div id="typography"></div>
+                                        <h3>Typography</h3>
+                                        <h4>About Typography</h4>
+                                    <br/><p><b>Font Family</b> can be set (Google Fonts and Custom Fonts). Google Font Family has option to set one of many <b>Google Fonts</b>.</p>
+                                        <p>Both families has option for font size of 6 Heading types.</p>
+                                    <p>
+                                        Go to <code>Customize Theme > Typography</code>
+                                    </p>
+                                    <img class="grey-border-1 margin-top-bottom-5" src="assets/images/font.png"/>
+                                    <h4>How to get a Google Web font name</h4>
+                                    <p>Go to: https://www.google.com/fonts. Find your font in search field on the left hand</p>
+                                    <img class="doc-img" src="assets/images/font_3.jpg"/>
+                                    <br/>
+                                    <p>Click <b>Quick-use</b> button</p>
+                                    <img class="doc-img" src="assets/images/font_4.jpg"/>
+
+                                    <section id="pages">
+                                        <h2>Pages</h2>
+                                        <div class="main-content">
+                                        <div id="blogpage">
+                                            <h3>Blog Page</h3>
+                                            <h4>How to create a Blog Post?</h4>
+                                            <p>Go to  <code> Online Store > Blog Posts > Add Blog Post</code>.</p>
+                                            <div class="content-body">
+                                                <div class="row">
+                                                    <div class="col-sm-6">
+                                                        <p><img class="doc-img" src="assets/images/blog2.png"/></p>
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <ul><li><p>Add the <b>Title</b>.</p></li>
+                                                        <li><p>Add the <b>Content</b>.</p></li>
+                                                        <li><p>Choose <b>Add excerpt</b> and insert image with original size if you want to show this image on the Blog Page.</p>
+                                                        <p><img class="grey-border-1 margin-top-bottom-5" src="assets/images/blog3.png"/></p></li>
+                                                        <li><p>Add image in <b>Featured Image</b> to display the image as the thumbnail.</p>
+                                                        <img class="grey-border-1 margin-top-bottom-5" src="assets/images/blog4.png"/></li></ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <h4>Blog Page Sidebar</h4>
+                                            <p>Go to <code> Online Store > Themes ></code> Go to the blog page <code>> Sections tab > Blog Sidebar</code>.</p>
+                                            <div class="panel-body">
+                                                <img class="col-md-9 left padding-0 margin-right-10 grey-border-1" src="assets/images/blog5.png"/>
+                                                <img class="col-md-3 left padding-0 margin-right-10 grey-border-1" src="assets/images/blog6.png"/>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                </div>
+                                        <div class="main-content">
+                                            <div id="contact">
+                                                <h3>Contact Page</h3>
+                                                <h4>Create the Contact page</h4>
+                                                <p>Go to <code>Online Stores > Page > Contact Page</code>.</p>
+                                                <img class="doc-img" src="assets/images/contact-page1.png"/>
+                                                <h4>Settings</h4>
+                                                <p>Go to <code> Customize Theme > Contact Page</code>.</p>
+                                                <p><img class="doc-img" src="assets/images/contact-page.png"/></p>
+
+                                        </div>
+                                            <div class="main-content">
+                                                <div id="aboutme">
+                                                    <h3>About Me Page</h3>
+                                                    <div class="panel-body">
+                                                        <h4>Create the Contact page</h4>
+                                                        <p>Go to <code>Online Stores > Page > About Me page</code>.</p>
+                                                        <img class="doc-img" src="assets/images/aboutme1.png"/>
+                                                        <p>Go to <code>Customize theme > Theme Settings tab > About Me page</code>. </p>
+                                                            <img class="doc-img"  src="assets/images/aboutme.png"/>
+                                                        <br/><h4>Sample Content</h4>
+                                                        <p><b>About Name</b></p>
+                                                        <pre>My name is&lt;br>- Steve Rogers.</pre>
+                                                        <p><b>About Content</b></p>
+                                                        <pre>&lt;div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-6 vc_col-md-6">
+  &lt;div class="vc_column-inner vc_custom_1500283497886">
+    &lt;div class="wpb_wrapper">
+      &lt;div class="wpb_text_column wpb_content_element  vc_custom_1500278336090 text-larger">
+        &lt;div class="wpb_wrapper">
+          &lt;p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words.&lt;/p>
+        &lt;/div>
+      &lt;/div>
+    &lt;/div>
+  &lt;/div>
+&lt;/iv>
+&lt;div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-6 vc_col-md-6">
+  &lt;div class="vc_column-inner ">
+    &lt;div class="wpb_wrapper">
+      &lt;div class="wpb_text_column wpb_content_element  vc_custom_1500278330561 text-larger">
+        &lt;div class="wpb_wrapper">
+          &lt;p>which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden.&lt;/p>
+        &lt;/div>
+      &lt;/div>
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
+                                                        </pre>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                            <div class="main-content">
+                                                <div id="landingpage">
+                                                    <h3>Landing Page</h3>
+                                                    <div class="panel-body">
+                                                        <h4>Create the Landing page</h4>
+                                                        <p>Go to <code>Online Stores > Page > Landing page</code>.</p>
+                                                        <img class="doc-img" src="assets/images/landing1.png"/>
+                                                        <p>Go to <code>Customize theme ></code> Go to the Landing page <code> > Sections tab > Landing Page</code></p>
+                                                            <img class="doc-img" src="assets/images/landing.png"/>
+                                                        <img src="assets/images/landing3.png"/>
+                                                        </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-content">
+                                                <div id="faqspage">
+                                                    <h3>FAQs Page</h3>
+                                                    <div class="panel-body">
+                                                        <h4>Create the FAQs page</h4>
+                                                        <p>Go to <code>Online Stores > Page > FAQs page</code>.</p>
+                                                        <img class="doc-img" src="assets/images/faq1.png"/>
+                                                        <br/><p>Go to <code>Customize theme ></code> Go to the FAQs page <code> > Sections tab > FAQs Page</code></p>
+                                                        <img class="doc-img" src="assets/images/faq.png"/>
+                                                        <p><b>FAQs Heading</b></p>
+                                                        <br/><img src="assets/images/faq2.png"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div></section>
+                <section id="others">
+                    <h2>Others</h2>
+                    <div class="main-content">
+                        <div id="faq">
+                            <h3>Frequently Asked Questions</h3>
+                            <div class="sub-content">
+                                <p>Updating . . .</p>
+                            </div>
+                        </div>
+                        <div id="supportcustomization">
+                            <h3>Support & Customization</h3>
+                            <div class="sub-content">
+                                <h4>Thanks for using Woodmarket Shopify Theme!</h4>
+                                <div class="sub-sub-content">
+                                    <div class="content-body">
+                                        <p>We would like to thank you for using Woodmarket Shopify Theme! We are very pleased you have chosen Woodmarket eCommerce for your website, we always provide best support for our customers, you can confirm it from our <span class="text-primary">themeforest review rating - top 1 in themeforest</span>!</p>
+                                        <p>If you have any difficulities with Woodmarket Shopify Theme or need any additional service, do not hesitate to contact us. We provide 24/7 Support!</p>
+                                        <p>Regarding <span class="text-primary">presale questions and free support for theme usage</span>, please contact us through themeforest support page. We will provide you amazing one-by-one email support and you will get answers more faster than you expected. We also provide support in weekends, but may require some more hours than normal working days.</p>
+                                        <p>Regarding <span class="text-primary">customization service</span> based on our themes or other Shopify related, please contact us to <a href="mailto:nicework125@gmail.com" target="_blank">nicework125@gmail.com</a>. We have an amazing team to provide customization service who have done bunch of customization projects so far, will provide you reasonable quote before start.</p>
+                                        <br/>
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <div class="widget-summary">
+                                                    <div class="widget-summary-col widget-summary-col-icon">
+                                                        <div class="summary-icon bg-primary">
+                                                            <i class="fa fa-life-ring"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="widget-summary-col support-popup">
+                                                        <div class="summary">
+                                                            <h4 class="title">Free Support for Questions and Issues</h4>
+                                                            <h5><a href="https://themeforest.net/item/" target="_blank" style="font-size: 24px; font-weight: 600;">Themeforest Support Page</a></h5>
+                                                        </div>
+                                                        <div class="summary-footer" style="color: #ccc;">(Obest)</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="widget-summary" style="border-left-color: #e36159;">
+                                                    <div class="widget-summary-col widget-summary-col-icon">
+                                                        <div class="summary-icon" style="background-color: #e36159;">
+                                                            <i class="fa fa-usd"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="widget-summary-col support-popup">
+                                                        <div class="summary">
+                                                            <h4 class="title">Customization Service(additional cost)</h4>
+                                                            <h5><a href="mailto:nicework125@gmail.com" target="_blank" style="font-size: 24px; font-weight: 600;">nicework125@gmail.com</a></h5>
+                                                        </div>
+                                                        <div class="summary-footer" style="color: #ccc;">(OBest)</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="changelog">
+                            <h3>Change Log</h3>
+                            <div class="sub-content">
+                                    <h4>Updating ... </h4>
+                                <br/>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+                </section>
+            </div>
+        </div>
+        <footer id="footer" class="footer-ribbon">
+            <div class="container">
+                <div class="footer-ribbon">
+                    <a href="javascript:void(0)">Get in Touch!</a>
+                </div>
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="widget newsletter-widget">
+                            <h3 class="widget-title">Newsletter</h3>
+                            <form action="../../shopify/Woodmarket/index.php/demo10_en/newsletter/subscriber/new/">
+                                <p>Keep up on our always evolving product features and technology. Enter your e-mail and subscribe to our newsletter.</p>
+                                <div class="form-wrapper">
+                                    <input type="email" name="email" title="Sign up for our newsletter" placeholder="Email Address">
+                                    <input type="submit" value="Go!">
+                                </div>
+
+                            </form>
+                        </div><!-- End .widget -->
+                    </div><!-- End .col-md-3 -->
+
+                    <div class="col-md-5">
+                        <div class="widget contact-info">
+                            <h3 class="widget-title">Contact Us</h3>
+                            <ul class="contact-details">
+                                <li>
+                                    <i class="fa fa-map-marker"></i> <strong>Address:</strong>  1234 Street Name, City Name, United States
+                                </li>
+                                <li>
+                                    <i class="fa fa-phone"></i> <strong>Phone:</strong>  (123) 456-7890
+                                </li>
+                                <li>
+                                    <i class="fa fa-envelope"></i> <strong>Email:</strong>  <a href="mailto:nicework125@gmail.com">nicework125@gmail.com</a>
+                                </li>
+                            </ul>
+                        </div><!-- End .widget -->
+                    </div><!-- End .col-md-3 -->
+
+                    <div class="col-md-2">
+                        <div class="widget newsletter-widget">
+                            <h3 class="widget-title">Follow Us</h3>
+                            <div class="social-icons">
+                                <a href="#" class="social-icon icon-facebook">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                                <a href="https://twitter.com/eternalfriend38" target="_blank" class="social-icon icon-twitter">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                                <a href="#" class="social-icon icon-linkedin">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                            </div>
+                        </div><!-- End .widget -->
+                    </div><!-- End .col-md-3 -->
+                </div><!-- End .row -->
+            </div><!-- End .container -->
+
+            <div id="footer-bottom">
+                <div class="container">
+
+                    <div class="footer-left">
+                        <span class="logo">
+                            <a href="index.html" title="Woodmarket eCommerce Template">
+                                <img class="img-responsive" src="assets/images/logo1.svg" style="width: 200px;" alt="Woodmarket eCommerce">
+                            </a>
+                        </span>
+                        <span class="copyright">&copy;Copyright 2016. All Rights Reserved.</span>
+                    </div><!-- End .footer-left -->
+
+                    <div class="footer-right">
+                           <ul class="footer-menu">
+                               <li>
+                                   <a href="#faq">FaQs</a>
+                               </li>
+                               <li>
+                                   <a href="http://themeforest.net/user/sw-themes?ref=ilistheme&from=selectpage" target="_blank">About Us</a>
+                               </li>
+                               <li>
+                                   <a href="https://themeforest.net/item" target="_blank">Contact</a>
+                               </li>
+                           </ul>
+                    </div><!-- End .footer-right -->
+
+                </div><!-- End .container -->
+            </div><!-- End #footer-bottom -->
+        </footer>
+        <a href="javascript:void(0)" id="totop" title="Top" class="fixed"><i class="fa fa-chevron-up"></i></a>
+    </body>
+</html>
